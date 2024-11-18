@@ -1,4 +1,7 @@
 我使用的是zellij和vim的开发环境，目前这个效果我很满意了
+
+各插件的具体使用方法请自行查阅https://zhuanlan.zhihu.com/p/145793963
+
 使用方法：
 
 1.安装zsh
@@ -11,7 +14,7 @@
 
 3.将我的配置文件覆盖到对应文件中
 git clone下来我的文件后，找到你对应的文件，覆盖即可
-bashrc和zshrc在~/目录下
+bashrc、vimrc和zshrc在~/目录下
 
 .coc文件在~/.vim文件夹中
 
