@@ -1,0 +1,9 @@
+{
+    "jedi.startupMessage": false,
+    "jedi.enable": true,
+    "jedi.markupKindPreferred": "plaintext",
+    "jedi.trace.server": "off",
+    "jedi.executable.command": "jedi-language-server",
+    "diagnostic.enableSign": false
+}
+

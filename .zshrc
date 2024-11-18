@@ -129,12 +129,3 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-export NEMU_HOME=/home/o5order/ysyx/nemu
-export AM_HOME=/home/o5order/ysyx/abstract-machine
-export NVBOARD_HOME=/home/o5order/ysyx/nvboard
-export PATH="/usr/lib/ccache:$PATH"
-export PATH=/home/xpy69/.local/bin:$PATH
-export NPC_HOME=/home/o5order/ysyx/npc
-
-#export MAKEFLAGS="-j $(nproc)"
-export PATH="$PATH:/opt/nvim-linux64/bin"

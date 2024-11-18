@@ -125,23 +125,4 @@ if ! shopt -oq posix; then
   fi
 fi
 PS1="\[\e[37;40m\][\[\e[32;40m\]\u\[\e[37;40m\] \[\e[36;40m\]\w\[\e[0m\]] > "
-PATH=${PATH}:/usr/local/valgrind/bin
-export PATH=$PATH:~/valgrind/bin/
-export EDITOR=/usr/bin/vim
 
-#export AM_HOME=/home/xpy69/.ssh/ysyx-workbench/abstract-machine
-#export NVBOARD_HOME=/home/xpy69/.ssh/ysyx-workbench/nvboard    
-#export NPC_HOME=/home/xpy69/.ssh/ysyx-workbench/npc
-#export PATH="/usr/lib/ccache:$PATH"
-#export PATH=/home/xpy69/.local/bin:$PATH
-export NVBOARD_HOME=/home/o5order/ysyx/nvboard
-export NPC_HOME=/home/o5order/ysyx/npc
-#export MAKEFLAGS="-j $(nproc)"
-
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
-export NEMU_HOME=/home/o5order/ysyx/ics2024/nemu
-
-export AM_HOME=/home/o5order/ysyx/ics2024/abstract-machine
